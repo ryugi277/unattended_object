@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# YOLO model weights
+yolov8m.pt
+yolov8s.pt
+
+# Ignore all contents in data/ except .gitkeep
+data/*
+!data/.gitkeep
+
+# Ignore all contents in results/ except .gitkeep
+results/*
+!results/.gitkeep
+
+# Video atau file besar lain
+app/static/preview.mp4
