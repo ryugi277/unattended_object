@@ -220,3 +220,11 @@ results/*
 
 # Video atau file besar lain
 app/static/preview.mp4
+
+
+runs/
+*.jpg
+*.jpeg
+*.png
+*.csv
+*.json
